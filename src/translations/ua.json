@@ -1,0 +1,162 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "Колір за замовчуванням"
+                }
+            },
+            "info_picker": {
+                "values": {
+                    "default": "Відомості за замовчуванням",
+                    "name": "Ім'я",
+                    "state": "Стан",
+                    "last-changed": "Остання зміна",
+                    "last-updated": "Останнє оновлення",
+                    "none": "Ні"
+                }
+            },
+            "icon_type_picker": {
+                "values": {
+                    "default": "Тип за замовчуванням",
+                    "icon": "Icon",
+                    "entity-picture": "Зображення сутності",
+                    "none": "Ні"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Макет за замовчуванням",
+                    "vertical": "Вертикальне компонування",
+                    "horizontal": "Горизонтальне компонування"
+                }
+            },
+            "alignment_picker": {
+                "values": {
+                    "default": "Вирівнювання за замовчуванням",
+                    "start": "Початок",
+                    "end": "Кінець",
+                    "center": "Центр",
+                    "justify": "Вирівняти"
+                }
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Колір іконки",
+                "layout": "Макет",
+                "fill_container": "Заповнення контейнеру",
+                "primary_info": "Первинна інформація",
+                "secondary_info": "Вторинна інформація",
+                "icon_type": "Тип іконки",
+                "content_info": "Контент",
+                "use_entity_picture": "Використовувати зображення сутності?",
+                "collapsible_controls": "Згортання елементів керування при вимкненому стані"
+            },
+            "light": {
+                "show_brightness_control": "Регулювання яскравості?",
+                "use_light_color": "Використовуйте світлий колір",
+                "show_color_temp_control": "Контроль кольору температури?",
+                "show_color_control": "Керування кольором?",
+                "incompatible_controls": "Деякі елементи управління можуть не відображатися, якщо індикатор не підтримує цю функцію."
+            },
+            "fan": {
+                "icon_animation": "Анімація іконки, якщо активно",
+                "show_percentage_control": "Контроль у відсотках?",
+                "show_oscillate_control": "Коливальний контроль?"
+            },
+            "cover": {
+                "show_buttons_control": "Кнопки керування?",
+                "show_position_control": "Контроль положення?"
+            },
+            "alarm_control_panel": {
+                "show_keypad": "Відображення клавіатури"
+            },
+            "template": {
+                "primary": "Первинна інформація",
+                "secondary": "Вторинна інформація",
+                "multiline_secondary": "Багаторядковий вторинний?",
+                "entity_extra": "Використовується в шаблонах та діях",
+                "content": "Вміст",
+                "badge_icon": "Значок на іконці",
+                "badge_color": "Колір значка",
+                "picture": "Картинка (замінить іконку)"
+            },
+            "title": {
+                "title": "Заголовок",
+                "subtitle": "Підзаголовок"
+            },
+            "chips": {
+                "alignment": "Вирівнювання"
+            },
+            "weather": {
+                "show_conditions": "Умови?",
+                "show_temperature": "Температура?"
+            },
+            "update": {
+                "show_buttons_control": "Кнопки керування?"
+            },
+            "vacuum": {
+                "commands": "Команди"
+            },
+            "media-player": {
+                "use_media_info": "Використання відомостей про файли мультимедіа",
+                "use_media_artwork": "Використовуйте медіа-арт",
+                "show_volume_level": "Показати рівень гучності",
+                "media_controls": "Засоби управління мультимедіа",
+                "media_controls_list": {
+                    "on_off": "Увімкнення/вимкнення",
+                    "shuffle": "Перемішати",
+                    "previous": "Попередній трек",
+                    "play_pause_stop": "Відтворення/пауза/зупинка",
+                    "next": "Наступний трек",
+                    "repeat": "Режим повторення"
+                },
+                "volume_controls": "Регулятори гучності",
+                "volume_controls_list": {
+                    "volume_buttons": "Кнопки гучності",
+                    "volume_set": "Рівень гучності",
+                    "volume_mute": "Вимкнення звуку"
+                }
+            },
+            "lock": {
+                "lock": "Блокування",
+                "unlock": "Розблокування",
+                "open": "Відкрито"
+            },
+            "humidifier": {
+                "show_target_humidity_control": "Контроль вологості?"
+            },
+            "climate": {
+                "show_temperature_control": "Контроль температури?",
+                "hvac_modes": "Режими HVAC"
+            }
+        },
+        "chip": {
+            "sub_element_editor": {
+                "title": "Chip редактор"
+            },
+            "conditional": {
+                "chip": "Chip"
+            },
+            "chip-picker": {
+                "chips": "Chips",
+                "add": "Додати chip",
+                "edit": "Редагувати",
+                "clear": "Очистити",
+                "select": "Обрати chip",
+                "types": {
+                    "action": "Дія",
+                    "alarm-control-panel": "Сигналізація",
+                    "back": "Назад",
+                    "conditional": "Умова",
+                    "entity": "Сутність",
+                    "light": "Світло",
+                    "menu": "Меню",
+                    "template": "Шаблон",
+                    "weather": "Погода"
+                }
+            }
+        }
+    }
+}
