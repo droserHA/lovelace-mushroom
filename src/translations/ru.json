@@ -1,0 +1,162 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "Цвет по умолчанию"
+                }
+            },
+            "info_picker": {
+                "values": {
+                    "default": "Сведения по умолчанию",
+                    "name": "Имя",
+                    "state": "Состояние",
+                    "last-changed": "Последнее изменение",
+                    "last-updated": "Последнее обновление",
+                    "none": "Нет"
+                }
+            },
+            "icon_type_picker": {
+                "values": {
+                    "default": "Тип по умолчанию",
+                    "icon": "Icon",
+                    "entity-picture": "Изображение сущности",
+                    "none": "Нет"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Макет по умолчанию",
+                    "vertical": "Вертикальная компоновка",
+                    "horizontal": "Горизонтальная компоновка"
+                }
+            },
+            "alignment_picker": {
+                "values": {
+                    "default": "Выравнивание по умолчанию",
+                    "start": "Начало",
+                    "end": "Конец",
+                    "center": "Центр",
+                    "justify": "Выровнять"
+                }
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Цвет иконки",
+                "layout": "Макет",
+                "fill_container": "Заполнение контейнера",
+                "primary_info": "Первичная информация",
+                "secondary_info": "Вторичная информация",
+                "icon_type": "Тип иконки",
+                "content_info": "Контент",
+                "use_entity_picture": "Использовать изображение сущности?",
+                "collapsible_controls": "Сворачивание элементов управления при выключенном состоянии"
+            },
+            "light": {
+                "show_brightness_control": "Регулировка яркости?",
+                "use_light_color": "Используйте светлый цвет",
+                "show_color_temp_control": "Контроль цвета температуры?",
+                "show_color_control": "Управление цветом?",
+                "incompatible_controls": "Некоторые элементы управления могут не отображаться, если индикатор не поддерживает эту функцию."
+            },
+            "fan": {
+                "icon_animation": "Анимировать иконку, когда активено?",
+                "show_percentage_control": "Контроль в процентах?",
+                "show_oscillate_control": "Колебательный контроль?"
+            },
+            "cover": {
+                "show_buttons_control": "Кнопки управления?",
+                "show_position_control": "Контроль положения?"
+            },
+            "alarm_control_panel": {
+                "show_keypad": "Показать клавиатуру"
+            },
+            "template": {
+                "primary": "Первичная информация",
+                "secondary": "Вторичная информация",
+                "multiline_secondary": "Многострочный вторичный?",
+                "entity_extra": "Используется в шаблонах и действиях",
+                "content": "Содержимое",
+                "badge_icon": "Значок на иконке",
+                "badge_color": "Цвет значка",
+                "picture": "Картинка (заменит иконку)"
+            },
+            "title": {
+                "title": "Заголовок",
+                "subtitle": "Подзаголовок"
+            },
+            "chips": {
+                "alignment": "Выравнивание"
+            },
+            "weather": {
+                "show_conditions": "Условия?",
+                "show_temperature": "Температура?"
+            },
+            "update": {
+                "show_buttons_control": "Кнопки управления?"
+            },
+            "vacuum": {
+                "commands": "Команды"
+            },
+            "media-player": {
+                "use_media_info": "Использование сведений о файлах мультимедиа",
+                "use_media_artwork": "Используйте медиа-арт",
+                "show_volume_level": "Показать уровень громкости",
+                "media_controls": "Средства управления мультимедиа",
+                "media_controls_list": {
+                    "on_off": "Включить / выключить",
+                    "shuffle": "Перемешать",
+                    "previous": "Предыдущий трек",
+                    "play_pause_stop": "Воспроизведение/пауза/остановка",
+                    "next": "Следующий трек",
+                    "repeat": "Режим повторения"
+                },
+                "volume_controls": "Регуляторы громкости",
+                "volume_controls_list": {
+                    "volume_buttons": "Кнопки громкости",
+                    "volume_set": "Уровень громкости",
+                    "volume_mute": "Отключения звука"
+                }
+            },
+            "lock": {
+                "lock": "Блокировка",
+                "unlock": "Разблокировка",
+                "open": "Открыто"
+            },
+            "humidifier": {
+                "show_target_humidity_control": "Контроль влажности?"
+            },
+            "climate": {
+                "show_temperature_control": "Контроль температуры?",
+                "hvac_modes": "Режимы HVAC"
+            }
+        },
+        "chip": {
+            "sub_element_editor": {
+                "title": "Chip редактор"
+            },
+            "conditional": {
+                "chip": "Chip"
+            },
+            "chip-picker": {
+                "chips": "Chips",
+                "add": "Добавить chip",
+                "edit": "Редактировать",
+                "clear": "Очистить",
+                "select": "Выбрать chip",
+                "types": {
+                    "action": "Действие",
+                    "alarm-control-panel": "Сигнализация",
+                    "back": "Назад",
+                    "conditional": "Условие",
+                    "entity": "Сущность",
+                    "light": "Свет",
+                    "menu": "Меню",
+                    "template": "Шаблон",
+                    "weather": "Погода"
+                }
+            }
+        }
+    }
+}
